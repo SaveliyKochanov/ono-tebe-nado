@@ -190,7 +190,7 @@
   background-size: cover;
 }
 
-/* .card_type_film {
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 .card_type_book {
@@ -198,7 +198,7 @@
 }
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-} */
+}
 
 .card__title {
   font-size: 22px;
@@ -206,10 +206,9 @@
   font-weight: bold;
   line-height: 120%;
   text-transform: uppercase;
-  /* text-decoration: underline;
-  text-underline-offset: 5px;
-  text-decoration-thickness: 1px; */
-  /* text-decoration: none; */
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px; 
 }
 
 .card__text {
@@ -309,6 +308,7 @@
   display: flex;
   justify-self: end;
   column-gap: 48px;
+  list-style: none;
 }
 
 .footer__social-link {
