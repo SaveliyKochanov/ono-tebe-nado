@@ -159,9 +159,11 @@
 }
 
 .lots__card-list {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 25px;
   margin-bottom: 30px;
 }
