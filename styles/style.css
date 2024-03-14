@@ -169,9 +169,9 @@
 .lots__card-list-item {
   min-width: 334px;
   display: flex;
-  /* flex-basis: 0;
-  flex-grow: 1; */
   text-decoration: none;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 .card-link {
