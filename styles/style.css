@@ -135,13 +135,14 @@
 
 .bet-button {
   font-family: inherit;
+  white-space: nowrap;
   border: 1px solid currentColor;
-  padding: 12px 32px 11px 31px;
   font-size: 22px;
   text-transform: uppercase;
   line-height: 26px;
   color: #fff;
   background-color: transparent;
+  padding: 12px 32px 11px 31px;
   cursor: pointer;
 }
 
