@@ -160,18 +160,16 @@
 
 .lots__card-list {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   column-gap: 25px;
   margin-bottom: 30px;
 }
 
 .lots__card-list-item {
-  min-width: 334px;
+  max-width: 334px;
   display: flex;
   text-decoration: none;
-  flex-basis: 0;
-  flex-grow: 1;
 }
 
 .card-link {
