@@ -167,13 +167,15 @@
 }
 
 .lots__card-list-item {
+  min-width: 334px;
   display: flex;
   flex-basis: 0;
-  flex-grow: 1;
+  flex-grow: 1;  
   text-decoration: none;
 }
 
 .card-link {
+  width: 100%;
   display: block;
   text-decoration: none;
 }
@@ -225,6 +227,8 @@
   font-size: 20px;
   padding-left: 40px;
   line-height: 23px;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
 .about {
