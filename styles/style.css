@@ -124,6 +124,7 @@
 
 .cover__about-text {
   margin-right: 80px;
+  white-space: nowrap;
   font-size: 22px;
   line-height: 28px;
   text-align: center;
