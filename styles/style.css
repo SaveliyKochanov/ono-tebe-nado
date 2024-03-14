@@ -121,6 +121,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .cover__about-text {
   margin-right: 80px;
   font-size: 22px;
@@ -137,7 +138,6 @@
   padding: 12px 32px 11px 31px;
   font-size: 22px;
   text-transform: uppercase;
-  text-align: center;
   line-height: 26px;
   color: #fff;
   background-color: transparent;
@@ -159,6 +159,7 @@
 }
 
 .lots__card-list {
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 25px;
