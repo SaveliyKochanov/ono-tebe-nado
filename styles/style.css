@@ -134,7 +134,7 @@
 }
 
 .bet-button {
-  font-family: Raleway;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   white-space: nowrap;
   border: 1px solid currentColor;
   font-size: 22px;
